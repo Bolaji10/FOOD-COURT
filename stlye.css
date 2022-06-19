@@ -1,0 +1,171 @@
+
+
+a{
+	color: black;
+}
+a:hover{
+	color: red;
+}
+
+a:active{
+	color:blue;
+}
+
+a:visited{
+	color: yellow;
+}
+
+body{
+	background-color:grey;
+	color:black;
+	font-family:Arial havetica san serif;
+	font-size:16px;
+	font-weight:normal;
+/*same as above*/
+	font:normal 16px Arial havetica san serif;
+
+	line-height:1.6em;
+	margin:10; 
+	}
+
+	h1{
+		font-style: italic;
+		text-decoration:underline;
+	}
+
+.container{
+	width:80%;
+	margin:auto;
+}
+.button{
+	/*background-color:rgba(0,0,0,0.31);*/
+	/*to make the color see through 0.31 is the percentage that chages the color brightness the higher the darker*/
+	background-color: black;
+	color:white;
+	padding:10px 15px;
+	border: none;
+}
+
+
+.box-1{
+	background-color:green;
+	color: white;
+	border-right: 5px red solid;
+	border-left: 5px red solid;
+	border-top: 5px red solid;
+	border-bottom: 5px red solid;
+	/*same as above*/
+
+	border: 5px red solid;
+
+	padding:20px ;
+	border-radius:15px;
+}
+
+.categories{
+	list-style:square;
+
+}
+
+.categories li{
+	padding-bottom: 6px;
+	border-bottom: dotted 1px #333;
+}
+
+.my-form{
+	padding:20px;
+}
+.my-form .form-group{
+	padding-bottom:25px;
+}
+
+.my-form label{
+	display: block;
+
+}
+
+.my-form input[type="text"],.my-form textarea{
+	padding:8px;
+	width:100%;
+	resize:;
+}
+
+.my-form input[type="submit"]{
+	background-color:blue;
+	padding:10px;	border:none;
+
+}
+
+.flock{
+	float:left;
+	width:33%;
+	border:1px solid blue;
+	margin-bottom:10px;
+	padding:10px;
+	box-sizing:border-box;
+}
+
+#main-bar{
+	float:left;
+	width:70%;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+#side-bar{
+	float:right;
+	width:30%;
+	background-color: black;
+	color: white;
+	padding: 15px;
+	box-sizing:border-box; ;
+}
+
+.p-box{
+	width:500px;
+	height:500px;
+	border:1px solid black;
+	padding: 20px;
+	position: relative;
+	background-image:url('../IMAGES/pit.jpg')
+
+}
+
+.p-box h1{
+	position:absolute;
+	bottom:40px;
+	right:10px;
+}
+
+
+.p-box h2{
+	position: absolute;
+	left: 200px;
+	top:100px;
+}
+
+.fix-me{
+	position:fixed;
+	top:400px;
+}
+
+.list li:first-child{
+	background: red;
+}
+
+.list li:last-child{
+	background: blue;
+}
+
+.list li:nth-child(5){
+	background: yellow;
+}
+
+.list li:nth-child(even){
+	background: blue;
+}
+
+.clr{
+	clear: both;
+}
+

@@ -1,0 +1,63 @@
+body{
+background-position:center;
+background-size: cover;
+background-repeat:no-repeat;
+background-color: grey;
+background-image:url('../IMAGES/2.jpg')
+
+}
+.container{
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+}
+a{
+	color: red;
+}
+
+header{
+	text-align: center;
+	color:white;
+} 
+
+header h3{
+
+font-family: gabriola;
+font-size:30px;
+margin: none;
+padding:none;	
+}
+
+nav{
+	text-align: center;
+	background-color:rgba(0,0,0,0.35);
+	padding-top:10px;
+	padding-bottom:10px;
+	height:;
+	
+
+}
+nav a{
+	padding-right:20px; 
+	font-size:12px;
+	color:red;
+}
+
+nav a:hover{
+	color: blue;
+}
+
+main{
+	color:white;
+	text-align: center;
+}
+
+main h1{
+	margin-top:80px;
+	font-size:80px
+}
+main p{
+	font-size:35px;
+	padding-left:100px;
+	padding-right:100px;
+}
